@@ -135,6 +135,25 @@ ventana.mainloop()
 
 
 
+# Ejercicio de cajero automatico
+import numpy as np
+import random
+
+#saldo = np.random.random_integers(0,5000000,1)
+saldo = random.randrange(0,5000000)
+saldo
+
+menu = int(input("""
+Wellcome...
+This is a new ATH
+Please choose an option below
+1. Balance Inquiry
+2. Extract Money
+3. Deposit Money
+4. Transfer Money
+4. Exit/Quit
+"""))
+
 
 
 
